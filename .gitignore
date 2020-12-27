@@ -1,0 +1,7 @@
+.idea
+node_modules/
+config/config.env
+.editorconfig
+/node_modules
+npm-debug.log
+/*.env

@@ -1,0 +1,2 @@
+## Source
+The initial texts used for this came from [Folger Digital Texts](https://shakespeare.folger.edu/download-the-folger-shakespeare-complete-set/), from [The Folger Shakespeare]((https://shakespeare.folger.edu/)), licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported license](https://creativecommons.org/licenses/by-nc/3.0/deed.en_US).

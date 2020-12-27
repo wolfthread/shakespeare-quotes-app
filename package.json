@@ -1,0 +1,34 @@
+{
+  "name": "shakespeare-quotes-generator",
+  "version": "1.0.0",
+  "description": "Shakespeare Quote Generator",
+  "main": "server.js",
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.14.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Sylvain Dessureault",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "morgan": "^1.10.0",
+    "slugify": "^1.4.0",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
