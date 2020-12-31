@@ -2,7 +2,7 @@
 
 A Shakespeare Quotes app with custom API.
 
-You can access the [live app here](https://shakespeare-quotes-gen.herokuapp.com/).
+You can access the [live app here](https://shakespeare-quotes-gen.herokuapp.com/). I'm using the Heroku free tier, so please be patient on first load.
 
 ## Process
 
