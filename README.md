@@ -8,7 +8,7 @@ You can access the [live app here](https://shakespeare-quotes-gen.herokuapp.com/
 
 I used a Python script on the raw texts to generate quotes by theme, by play or randomly. This data is in the `_data` folder.
 
-See full [code here](https://github.com/wolfthread/shakespeare-quotes-generator) for the actual script I used to generate the quotes.
+See full [code here](https://github.com/syldess/shakespeare-quotes-generator) for the actual script I used to generate the quotes.
 
 I then created a seeder to pull the quotes and themes from the JSON files and create themes and quotes with ids for faster indexing within the \_data folder.
 
@@ -25,6 +25,7 @@ Here is the [documentation](https://documenter.getpostman.com/view/13762589/TVmS
 - [ ] Make Themes more dynamic, ie possibility to enter a non-existing theme.
 - [ ] Add more translations of Shakespeare plays. For this, the complete UI needs to be translated too.
 - [ ] Implement `Like` functionality.
+- [ ] Add-a-feature suggestion button (link to github issues).
 
 ## Source
 
